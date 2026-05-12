@@ -37,9 +37,9 @@ function clearBackup() {
 const INITIAL_STATE = {
   bodyId: 'plenum',
   session: {
-    id: null, title: 'Stadtratssitzung',
+    id: null, title: 'Gemeinderatssitzung',
     date: new Date().toISOString().slice(0, 10),
-    location: 'Rathaus Moosburg, Sitzungssaal',
+    location: 'Rathaus Langenbach, Sitzungssaal',
     status: 'idle', mode: 'public',
   },
   seatStates: {},
@@ -294,7 +294,7 @@ function getSeatInfo(memberId, bodyConfig, seatStates) {
 function getMemberRoleText(member, bodyConfig, seatInfo) {
   if (bodyConfig.type === 'plenum') {
     if (member.role === 'mayor') return member.title || 'Bürgermeister/in';
-    return member.title ? 'Stadtrat · ' + member.title : 'Stadtrat';
+    return member.title ? 'Gemeinderat · ' + member.title : 'Gemeinderat';
   }
   if (!seatInfo.eligible) return '—';
   if (seatInfo.role === 'chair') return 'Vorsitz';
