@@ -1,5 +1,12 @@
 # Gemeinderat Langenbach – Sitzungsprotokoll
 
+> **Archiviert.** Der Gemeinderat Langenbach ist seit August 2026 ein
+> Mandant im Hauptprojekt
+> [bagruber/council-voting-tool](https://github.com/bagruber/council-voting-tool)
+> und läuft dort aktuell unter
+> [bagruber.github.io/council-voting-tool/?rat=langenbach](https://bagruber.github.io/council-voting-tool/?rat=langenbach).
+> Dieses Repo ist der eingefrorene Stand des früheren Forks.
+
 Statische Single-Page-App zur digitalen Schriftführung von Gemeinderatssitzungen: Anwesenheiten, Abstimmungen, Ereignis-Log und Export. Läuft komplett im Browser, ohne Backend, ohne Build-Schritt.
 
 Live: <https://bagruber.github.io/council-voting-langenbach/>
